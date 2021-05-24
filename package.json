@@ -11,7 +11,7 @@
     "dev-server": "webpack serve",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run serve"
+    "heroku-postbuild": "npm run dev"
   },
   "keywords": [],
   "author": "",
