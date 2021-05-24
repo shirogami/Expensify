@@ -18,7 +18,6 @@ const AppRouter = () => (
                 <Route path="/" component={ExpenseDashBoardPage} exact={true} />
                 <Route path="/create" component={AddExpensePage} exact={true} />
                 <Route path="/edit/:id" component={EditExpensePage} exact={true} />
-                <Route path="/help" component={HelpPage} exact={true} />
                 <Route component={NotFoundPage} exact={true} />
 
             </Switch>
@@ -27,3 +26,5 @@ const AppRouter = () => (
 );
 
 export default AppRouter;
+
+// <Route path="/help" component={HelpPage} exact={true} />
